@@ -1,0 +1,60 @@
+# 🔒 Environment files
+.env
+.env.*
+.venv/
+
+# 🐍 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg-info
+
+# 📁 IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 📊 Data files
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.jsonl
+*.pkl
+*.faiss
+
+# 📝 Logs
+*.log
+*.out
+
+# 🌐 Jupyter / IPython
+.ipynb_checkpoints
+*.ipynb
+
+# 💾 Backup / temp files
+*.bak
+*.tmp
+*.swp
+*.DS_Store
+
+# 🤖 RAG / ML specific
+mlruns/
+__pycache__/
+checkpoints/
+output/
+embeddings/

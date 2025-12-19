@@ -6,7 +6,7 @@ from PyPDF2 import PdfReader
 from dotenv import load_dotenv
 from google import genai
 
-# Load environment
+# Load environment 
 load_dotenv()
 
 # Create Gemini client
